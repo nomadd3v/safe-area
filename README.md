@@ -1,11 +1,11 @@
-# @nomadd3v/safe-area
+# screensafe
 
 Stop the notch, punch-hole, status bar and gesture bar from covering crucial UI. Several independent detection strategies, one resolved answer with a `source` tag, a manual override, zero runtime dependencies. ESM + types, built with `tsc` only.
 
 ## Install
 
 ```
-npm i @nomadd3v/safe-area            # or "file:../safe-area" / a GitHub ref while unpublished
+npm i @nomadd3v/screensafe            # or "file:../safe-area" / a GitHub ref while unpublished
 ```
 Needs `viewport-fit=cover` in your viewport meta, otherwise browsers never expose insets:
 `<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">`
@@ -13,7 +13,7 @@ Needs `viewport-fit=cover` in your viewport meta, otherwise browsers never expos
 ## One-line setup
 
 ```ts
-import { install } from "@nomadd3v/safe-area";
+import { install } from "@nomadd3v/screensafe";
 install({ storageKey: "myapp:safe-area" }); // before first render
 ```
 
@@ -70,7 +70,7 @@ Options: `storageKey` (default `"safe-area"`), `properties` (custom CSS var name
 
 ## Add to an existing app (checklist)
 
-1. `npm i @nomadd3v/safe-area`.
+1. `npm i @nomadd3v/screensafe`.
 2. Confirm `viewport-fit=cover` in `index.html`.
 3. `install({ storageKey: "<app>:safe-area" })` at the top of your entry file.
 4. Add the `--sa-*` CSS wrapper above to `:root`.

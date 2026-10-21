@@ -1,5 +1,5 @@
 {
-  "name": "@nomadd3v/safe-area",
+  "name": "@nomadd3v/screensafe",
   "version": "0.1.0",
   "description": "Detect notch / cutout / status bar / gesture bar insets from several independent strategies, with a manual override. Framework-agnostic core, React and Capacitor subpaths.",
   "license": "MIT",
