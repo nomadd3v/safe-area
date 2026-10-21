@@ -11,7 +11,7 @@ import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 
 /**
- * @nomadd3v/screensafe native bridge. Copy this file into your app's android/app/src/main/java/<your package>/
+ * @nomadd3v/safe-area native bridge. Copy this file into your app's android/app/src/main/java/<your package>/
  * (change the package line) and register it BEFORE super.onCreate in MainActivity:
  *
  *   public void onCreate(Bundle b) { registerPlugin(SafeAreaPlugin.class); super.onCreate(b); }
